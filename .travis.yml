@@ -2,7 +2,7 @@ language: python
 python:
   - "3.7"
 script:
-  echo "Hola mundo de travis"
-  python test.py -v
+  -  echo "Hola mundo de travis"
+  -  python test.py -v
 notifications:
   email: false
